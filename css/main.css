@@ -1,7 +1,19 @@
 /* BG */
 
-.bg {
+.bg-section3 {
 	background: linear-gradient(76.82deg, #f9d797 31.99%, #fd8d69 163.6%);
+}
+
+.bg-section4 {
+	background: linear-gradient(116.16deg, #FCDBCC -29.93%, #FFFFFF 162.12%);
+}
+
+.bg-section5 {
+	background: linear-gradient(95.53deg, #FAD697 -18.31%, #FFB953 140.09%);
+}
+
+.bg-section6 {
+	background: linear-gradient(116.16deg, #FCDBCC -29.93%, #FFFFFF 162.12%);
 }
 
 .m-l {
@@ -15,7 +27,7 @@
 }
 
 .txt1 {
-	font-family: Raleway;
+	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 60px;
@@ -29,7 +41,7 @@
 }
 
 .txt2 {
-	font-family: Rubik;
+	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
@@ -39,4 +51,61 @@
 	color: #11354f;
 
 	opacity: 0.6;
+}
+
+.center-items {
+	align-items: center;
+	text-align: center;
+}
+
+.title-center {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	align-items: center;
+	text-align: center;
+
+	color: #11354F;
+}
+
+.card-box {
+	margin-bottom: 8rem;
+}
+
+.card-text {
+	height: 36px;
+	padding: 24px;
+	margin-top: 32px;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 36px;
+	/* identical to box height, or 120% */
+	text-align: center;
+
+	color: #11354F;
+}
+
+.subtitle {
+	height: 96px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+
+	font-family: Rubik;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 48px;
+	/* or 200% */
+	align-items: center;
+	text-align: center;
+
+	color: #11354F;
+
+	opacity: 0.6;
+
 }
