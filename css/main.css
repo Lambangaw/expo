@@ -1,0 +1,42 @@
+/* BG */
+
+.bg {
+	background: linear-gradient(76.82deg, #f9d797 31.99%, #fd8d69 163.6%);
+}
+
+.m-l {
+	margin-top: 10rem !important;
+	margin-bottom: 3rem !important;
+}
+
+.p-l {
+	padding-top: 8rem !important;
+	padding-bottom: 5rem !important;
+}
+
+.txt1 {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 120%;
+	/* identical to box height, or 120% */
+
+	display: flex;
+	align-items: center;
+
+	color: #11354f;
+}
+
+.txt2 {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 200%;
+	/* or 200% */
+
+	color: #11354f;
+
+	opacity: 0.6;
+}
