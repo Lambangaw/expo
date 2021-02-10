@@ -52,6 +52,12 @@
 
 .nav-item {
 	margin-right: 6rem!important;
+	border:2px solid transparent;
+}
+
+.nav-item:hover{
+	border: 2px solid #f9d797 ;
+	border-radius: 5px;
 }
 
 .nav-menu {
@@ -203,31 +209,44 @@
 	width: 80%;
 }
 
+.footer{
+	margin: 45px 62px 45px 58px;
+}
+
 .text-footer {
-	margin-top: 6rem;
+	margin-top: 3.5rem;
 	font-family: Rubik;
 	font-style: normal;
-	font-weight: 300;
-	font-size: 28px;
-	line-height: 48px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
 	/* identical to box height, or 171% */
-
-	align-items: center;
-	text-align: center;
-
+	align-items: right;
+	text-align: right;
 	color: #FFFFFF;
+	padding:15px 0 0 25px;
+}
+
+.text-footer p{
+	margin-bottom:9px;
+}
+
+.text-footer img{
+	width:30px;
+	height:30px;
+	text-decoration: none;
+	margin-left: 16px;
 }
 
 .text-copyright {
-	margin-top: 10rem;
 	font-family: Rubik;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 16px;
+	line-height: 24px;
 	/* identical to box height, or 160% */
-	align-items: center;
-	text-align: center;
+	align-items: left;
+	text-align: left;
 
 	color: #FFFFFF;
 }
