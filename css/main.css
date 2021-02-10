@@ -59,6 +59,14 @@
   margin-right: 6rem;
 }
 
+.dropdown-divider1 {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+
+  border: 1px solid #ffba53;
+}
+
 .text-topbar {
   font-family: "Rubik";
   font-style: normal;
@@ -73,6 +81,19 @@
 }
 
 .text-topbar.scrolled {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #312883;
+}
+
+.text-nav-drop {
   font-family: "Rubik";
   font-style: normal;
   font-weight: normal;
