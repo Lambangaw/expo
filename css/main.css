@@ -1,113 +1,158 @@
 /* BG */
 
+.bg-topbar {
+  background: #ffffff;
+  /* opacity: 0; */
+}
+.bg-section1 {
+  background: linear-gradient(116.16deg, #009197 -52.63%, #3f0a3e 87.37%);
+}
 .bg-section3 {
-	background: linear-gradient(76.82deg, #f9d797 31.99%, #fd8d69 163.6%);
+  background: linear-gradient(76.82deg, #f9d797 31.99%, #fd8d69 163.6%);
 }
 
 .bg-section4 {
-	background: linear-gradient(116.16deg, #FCDBCC -29.93%, #FFFFFF 162.12%);
+  background: linear-gradient(116.16deg, #fcdbcc -29.93%, #ffffff 162.12%);
 }
 
 .bg-section5 {
-	background: linear-gradient(95.53deg, #FAD697 -18.31%, #FFB953 140.09%);
+  background: linear-gradient(95.53deg, #fad697 -18.31%, #ffb953 140.09%);
 }
 
 .bg-section6 {
-	background: linear-gradient(116.16deg, #FCDBCC -29.93%, #FFFFFF 162.12%);
+  background: linear-gradient(116.16deg, #fcdbcc -29.93%, #ffffff 162.12%);
 }
 
 .m-l {
-	margin-top: 10rem !important;
-	margin-bottom: 3rem !important;
+  margin-top: 10rem !important;
+  margin-bottom: 3rem !important;
 }
 
 .p-l {
-	padding-top: 8rem !important;
-	padding-bottom: 5rem !important;
+  padding-top: 8rem !important;
+  padding-bottom: 15rem !important;
+}
+
+.text-topbar {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.title-section1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  /* or 120% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.subtext-section1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  /* or 200% */
+
+  color: #ffffff;
 }
 
 .txt1 {
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: bold;
-	font-size: 60px;
-	line-height: 120%;
-	/* identical to box height, or 120% */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 120%;
+  /* identical to box height, or 120% */
 
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
-	color: #11354f;
+  color: #11354f;
 }
 
 .txt2 {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 200%;
-	/* or 200% */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 200%;
+  /* or 200% */
 
-	color: #11354f;
+  color: #11354f;
 
-	opacity: 0.6;
+  opacity: 0.6;
 }
 
 .center-items {
-	align-items: center;
-	text-align: center;
+  align-items: center;
+  text-align: center;
 }
 
 .title-center {
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: bold;
-	font-size: 36px;
-	line-height: 42px;
-	align-items: center;
-	text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
 
-	color: #11354F;
+  color: #11354f;
 }
 
 .card-box {
-	margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 
 .card-text {
-	height: 36px;
-	padding: 24px;
-	margin-top: 32px;
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 300;
-	font-size: 30px;
-	line-height: 36px;
-	/* identical to box height, or 120% */
-	text-align: center;
+  height: 36px;
+  padding: 24px;
+  margin-top: 32px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height, or 120% */
+  text-align: center;
 
-	color: #11354F;
+  color: #11354f;
 }
 
 .subtitle {
-	height: 96px;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
+  height: 96px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 
-	font-family: Rubik;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 48px;
-	/* or 200% */
-	align-items: center;
-	text-align: center;
+  font-family: Rubik;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  /* or 200% */
+  align-items: center;
+  text-align: center;
 
-	color: #11354F;
+  color: #11354f;
 
-	opacity: 0.6;
-
+  opacity: 0.6;
 }
 
 .gallery-img {
