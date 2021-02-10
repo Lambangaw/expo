@@ -30,6 +30,10 @@
 
 .p-l {
   padding-top: 8rem !important;
+  padding-bottom: 3rem !important;
+}
+.p-l-full {
+  padding-top: 8rem !important;
   padding-bottom: 15rem !important;
 }
 
