@@ -41,8 +41,10 @@
     </nav> -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand logo-nav" href="#"><img src="img/Logo Putih.svg" alt="Logo ITS Expo"></a>
-
+        <a class="navbar-brand logo-nav" id="logo" href="#"><img src="img/Logo Putih.svg" alt="Logo ITS Expo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse flex-row-reverse nav-menu" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -257,8 +259,11 @@
     if (scroll >= 800) {
         //clearHeader, not clearheader - caps H
         $(".bg-topbar").addClass("scrolled");
+        $("#logo img").attr("src","img/logo_scroll.svg");
+        $(".text-topbar").addClass("scrolled");
     } else {
       $(".bg-topbar").removeClass("scrolled");
+      $("#logo img").attr("src","img/Logo putih.svg");
     }
 });
   </script>
