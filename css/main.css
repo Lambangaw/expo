@@ -160,5 +160,22 @@
 }
 
 .gallery-img {
-  margin-bottom: 16px;
+	margin-bottom: 16px;
+}
+
+.button-ig {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32px;
+	margin-bottom: 52px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding: 12px 24px 12px 24px;
+	background: #FFBA53;
+	border-radius: 50px;
+}
+
+.klik-ig {
+	width: 80%;
 }
