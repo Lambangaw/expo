@@ -1,8 +1,12 @@
 /* BG */
 
 .bg-topbar {
-	background: #ffffff;
+	background: transparent;
 	/* opacity: 0; */
+}
+.bg-topbar.scrolled {
+  background-color: #3F0A3E !important;
+  transition: background-color 200ms linear;
 }
 .bg-section1 {
 	background: linear-gradient(116.16deg, #009197 -52.63%, #3f0a3e 87.37%);
@@ -25,7 +29,6 @@
 
 .bg-footer {
 	background: #3F0A3E;
-
 }
 
 .m-l {
@@ -41,6 +44,18 @@
 .p-l-full {
   padding-top: 8rem !important;
   padding-bottom: 15rem !important;
+}
+
+.logo-nav {
+	margin: 12px;
+}
+
+.nav-item {
+	margin-right: 6rem!important;
+}
+
+.nav-menu {
+	margin-right: 6rem;
 }
 
 .text-topbar {
@@ -215,6 +230,4 @@
 	text-align: center;
 
 	color: #FFFFFF;
-
-
 }
