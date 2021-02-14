@@ -32,6 +32,10 @@
   background: #3f0a3e;
 }
 
+.bg-bcc {
+  background: linear-gradient(6.94deg, #009197 -3.26%, #11354F 101.81%);
+}
+
 .m-l {
   margin-top: 10rem !important;
   margin-bottom: 3rem !important;
@@ -245,7 +249,7 @@
   margin-bottom: 16px;
 }
 
-.button-ig {
+.button-yellow {
   margin-left: auto;
   margin-right: auto;
   margin-top: 32px;
@@ -258,7 +262,7 @@
   border-radius: 50px;
 }
 
-.klik-ig {
+.klik-button {
   width: 80%;
 }
 
